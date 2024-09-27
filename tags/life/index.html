@@ -6,11 +6,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag1 | Hugo Theme Dream</title>
+    <title>Life | Good Morning, and in case I don&#39;t see you, good afternoon, good even!</title>
 
     
 
-<link rel="canonical" href="https://biophilia.com/tags/tag1/" />
+<link rel="canonical" href="https://biophilia.com/tags/life/" />
 
 
 
@@ -22,9 +22,9 @@
 <meta name="generator" content="Hugo 0.134.3">
 
 
-<meta property="og:url" content="https://biophilia.com/tags/tag1/">
-  <meta property="og:site_name" content="Hugo Theme Dream">
-  <meta property="og:title" content="Tag1">
+<meta property="og:url" content="https://biophilia.com/tags/life/">
+  <meta property="og:site_name" content="Good Morning, and in case I don&#39;t see you, good afternoon, good even!">
+  <meta property="og:title" content="Life">
   <meta property="og:description" content="Love life and keep loving it~">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tag1">
+  <meta name="twitter:title" content="Life">
   <meta name="twitter:description" content="Love life and keep loving it~">
 
 
@@ -60,7 +60,10 @@
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -92,6 +95,8 @@
       </div>
       <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
+
+
 
 
 
@@ -143,6 +148,13 @@
 
 
 
+
+
+
+
+
+
+
       </ul>
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
@@ -150,16 +162,13 @@
 
       
       
-
+        
       
 
       
+
       
-
-
-
-
-
+      
       
       
 
@@ -169,29 +178,60 @@
 
       
       
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
-  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
-</a>
 
 
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
-  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
-</a>
 
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
-  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
-</a>
 
 
       
 
-      
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
 
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+        </ul>
+      </div>
       
     </section>
   </div>
@@ -208,21 +248,27 @@
 <div class="flex flex-col md:flex-row mt-4">
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
-    <h1 class="text-2xl">Tag1</h1>
+    <h1 class="text-2xl">Life</h1>
     <p class="text-sm">1 article</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
 
       
       
+      <a href="/tags/kafka/" class="badge h-6 no-underline hover:badge-primary">
+        Kafka
+      </a>
+      
+      
+      
       <span class="badge h-6 badge-primary">
-        Tag1
+        Life
       </span>
       
       
       
-      <a href="/tags/tag2/" class="badge h-6 no-underline hover:badge-primary">
-        Tag2
+      <a href="/tags/work/" class="badge h-6 no-underline hover:badge-primary">
+        Work
       </a>
       
       
@@ -256,7 +302,7 @@
 
     <p class="date text-base-content/60">
     
-      Friday, Sep 27, 2024
+      <span data-format="luxon">2024-09-27T01:41:53&#43;08:00</span>
     
     </p>
 
@@ -304,18 +350,12 @@
               <div>
   
   <p>
-    © 2016 - 2024 Hugo Theme Dream
+    © 2022 - 2024 Good Morning, and in case I don&#39;t see you, good afternoon, good even!
   </p>
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>work on baishan cloud</p>
   
 </div>
 
@@ -389,6 +429,24 @@
 <script src="/js/main.min.js"></script>
 
     
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "en" }).toFormat("yyyy年MM月dd日")
+    })
+  }
+</script>
 
 
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag2 on Hugo Theme Dream</title>
-    <link>https://biophilia.com/tags/tag2/</link>
-    <description>Recent content in Tag2 on Hugo Theme Dream</description>
+    <title>Life on Good Morning, and in case I don&#39;t see you, good afternoon, good even!</title>
+    <link>https://biophilia.com/tags/life/</link>
+    <description>Recent content in Life on Good Morning, and in case I don&#39;t see you, good afternoon, good even!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Sep 2024 01:41:53 +0800</lastBuildDate>
-    <atom:link href="https://biophilia.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biophilia.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog</title>
       <link>https://biophilia.com/posts/first-blog/</link>

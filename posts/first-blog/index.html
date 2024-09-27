@@ -6,7 +6,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Blog | Hugo Theme Dream</title>
+    <title>First Blog | Good Morning, and in case I don&#39;t see you, good afternoon, good even!</title>
 
     
 
@@ -20,7 +20,7 @@ Cut out summary from your post content here.
 " />
 
 
-<meta name="keywords" content="Tag1,Tag2">
+<meta name="keywords" content="Life,Work">
 
 
 
@@ -28,7 +28,7 @@ Cut out summary from your post content here.
 
 
 <meta property="og:url" content="https://biophilia.com/posts/first-blog/">
-  <meta property="og:site_name" content="Hugo Theme Dream">
+  <meta property="og:site_name" content="Good Morning, and in case I don&#39;t see you, good afternoon, good even!">
   <meta property="og:title" content="First Blog">
   <meta property="og:description" content="aaa bbb cc
 Cut out summary from your post content here.">
@@ -37,8 +37,8 @@ Cut out summary from your post content here.">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-09-27T01:41:53+08:00">
     <meta property="article:modified_time" content="2024-09-27T01:41:53+08:00">
-    <meta property="article:tag" content="Tag1">
-    <meta property="article:tag" content="Tag2">
+    <meta property="article:tag" content="Life">
+    <meta property="article:tag" content="Work">
 
 
 
@@ -88,7 +88,10 @@ Cut out summary from your post content here.">
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -120,6 +123,8 @@ Cut out summary from your post content here.">
       </div>
       <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
+
+
 
 
 
@@ -171,6 +176,13 @@ Cut out summary from your post content here.">
 
 
 
+
+
+
+
+
+
+
       </ul>
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
@@ -178,16 +190,13 @@ Cut out summary from your post content here.">
 
       
       
-
+        
       
 
       
+
       
-
-
-
-
-
+      
       
       
 
@@ -197,29 +206,60 @@ Cut out summary from your post content here.">
 
       
       
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
-  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
-</a>
 
 
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
-  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
-</a>
 
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
-  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
-</a>
 
 
       
 
-      
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
 
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+        </ul>
+      </div>
       
     </section>
   </div>
@@ -233,8 +273,16 @@ Cut out summary from your post content here.">
             
 <div class="mt-4 px-4">
   
-  <div>
+  <div class="relative" x-data="{ height: '' }" x-init="height = $el.scrollHeight + 'px'">
   
+    
+    <div class="absolute right-0 lg:w-36 xl:w-48 hidden lg:block" :style="{ height }">
+      <nav id="TableOfContents"></nav>
+
+      <div class="dream-adsense px-5">
+      
+      </div>
+    </div>
     
     <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
       
@@ -244,13 +292,13 @@ Cut out summary from your post content here.">
   <meta itemprop="datePublished" content="2024-09-27T01:41:53+08:00">
   <meta itemprop="dateModified" content="2024-09-27T01:41:53+08:00">
   <meta itemprop="wordCount" content="17">
-  <meta itemprop="keywords" content="Tag1,Tag2">
+  <meta itemprop="keywords" content="Life,Work">
 
       <header>
         <h1 itemprop="headline">First Blog</h1>
         <p class="text-sm">
           
-            Friday, Sep 27, 2024
+            <span data-format="luxon">2024-09-27T01:41:53&#43;08:00</span>
           
 
           | <span>1 minute read</span>
@@ -258,7 +306,7 @@ Cut out summary from your post content here.">
           
           | <span>Updated at
             
-              Friday, Sep 27, 2024
+              <span data-format="luxon">2024-09-27T01:41:53&#43;08:00</span>
             </span>
           
         </p>
@@ -320,9 +368,52 @@ Cut out summary from your post content here.">
 <p>The remaining content of your post.</p>
 
       
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a class="group btn btn-outline" href="/posts/kafkaart1/" title="KafkaArt1">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">Previous page</span>
+            <span class="max-w-48 truncate">KafkaArt1</span>
+          </div>
+        </a>
+        
+
+        
+        <div></div>
+        
+      </div>
+      
     </article>
   </div>
 
+  
+  <div class="divider max-w-[65ch] mx-auto"></div>
+
+  <section class="max-w-[65ch] mx-auto space-y-4">
+    
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="Meidada2464/biophilia.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+  </section>
   
 </div>
 
@@ -333,18 +424,12 @@ Cut out summary from your post content here.">
               <div>
   
   <p>
-    © 2016 - 2024 Hugo Theme Dream
+    © 2022 - 2024 Good Morning, and in case I don&#39;t see you, good afternoon, good even!
   </p>
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>work on baishan cloud</p>
   
 </div>
 
@@ -418,6 +503,24 @@ Cut out summary from your post content here.">
 <script src="/js/main.min.js"></script>
 
     
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "en" }).toFormat("yyyy年MM月dd日")
+    })
+  }
+</script>
 
 
 
