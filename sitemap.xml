@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://biophilia.github.io/categories/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/categories/category1/</loc>
+    <loc>https://biophilia.github.io/categories/category1/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://biophilia.github.io/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/tags/kafka/</loc>
+    <loc>https://biophilia.github.io/tags/kafka/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/posts/kafkaart1/</loc>
+    <loc>https://biophilia.github.io/posts/kafkaart1/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://biophilia.github.io/posts/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://biophilia.github.io/tags/</loc>
     <lastmod>2024-09-27T10:55:46+08:00</lastmod>
   </url><url>
-    <loc>/posts/first-blog/</loc>
+    <loc>https://biophilia.github.io/posts/first-blog/</loc>
     <lastmod>2024-09-27T01:41:53+08:00</lastmod>
   </url><url>
-    <loc>/tags/life/</loc>
+    <loc>https://biophilia.github.io/tags/life/</loc>
     <lastmod>2024-09-27T01:41:53+08:00</lastmod>
   </url><url>
-    <loc>/tags/work/</loc>
+    <loc>https://biophilia.github.io/tags/work/</loc>
     <lastmod>2024-09-27T01:41:53+08:00</lastmod>
   </url>
 </urlset>

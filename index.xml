@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Good Morning, and in case I don&#39;t see you, good afternoon, good even!</title>
-    <link>/</link>
+    <link>https://biophilia.github.io/</link>
     <description>Recent content on Good Morning, and in case I don&#39;t see you, good afternoon, good even!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Sep 2024 10:55:46 +0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biophilia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KafkaArt1</title>
-      <link>/posts/kafkaart1/</link>
+      <link>https://biophilia.github.io/posts/kafkaart1/</link>
       <pubDate>Fri, 27 Sep 2024 10:55:46 +0800</pubDate>
-      <guid>/posts/kafkaart1/</guid>
+      <guid>https://biophilia.github.io/posts/kafkaart1/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Blog</title>
-      <link>/posts/first-blog/</link>
+      <link>https://biophilia.github.io/posts/first-blog/</link>
       <pubDate>Fri, 27 Sep 2024 01:41:53 +0800</pubDate>
-      <guid>/posts/first-blog/</guid>
+      <guid>https://biophilia.github.io/posts/first-blog/</guid>
       <description>&lt;p&gt;aaa bbb cc dd&lt;/p&gt;&#xA;&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
   </channel>
